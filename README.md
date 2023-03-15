@@ -16,7 +16,7 @@
     - `EMAIL_PASS=<app passwd>`
     ( for getting the app password go to your gamil => open manage your google account => go to security =>scroll below turn on 2 step verification => go to App passwords => select app as mail & device as other and generate the passwd and copy paste it in you env )
     
- - Inside the `src/config` folder , create a new file `config.json` and then add the following piece of json
+ - Inside the `src/config` folder , create a new file `config.json` and then add the following piece of json or run command "npx sequelize init" inside src 
 
  ```
  "development": {
@@ -31,5 +31,7 @@
 
  - Once you've added your DB config as listed above,go to the src folder from your terminal and excute the command `npx sequelize db:create`
  and then execute 
+
+ after than run "npx sequelize db:migrate"
 
 
