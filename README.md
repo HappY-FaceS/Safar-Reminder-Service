@@ -14,6 +14,9 @@
     - `PORT=5000`
     - `EMAIL_ID=<your gamil>`
     - `EMAIL_PASS=<app passwd>`
+    - `EXCHANGE_NAME=<any string>`
+    - `REMINDER_BINDING_KEY=<any string>`
+    - `MESSAGE_BROKER_URL='amqp://localhost'`
     ( for getting the app password go to your gamil => open manage your google account => go to security =>scroll below turn on 2 step verification => go to App passwords => select app as mail & device as other and generate the passwd and copy paste it in you env )
     
  - Inside the `src/config` folder , create a new file `config.json` and then add the following piece of json or run command "npx sequelize init" inside src 
